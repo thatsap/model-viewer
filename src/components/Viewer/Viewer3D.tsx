@@ -1,5 +1,4 @@
 import { observer } from "mobx-react-lite";
-import React from "react";
 
 import { Camera } from "../Camera/Camera";
 import { Canvas3D } from "../Canvas/Canvas3D";
