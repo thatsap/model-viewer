@@ -11,8 +11,8 @@ export const Viewer3D = observer(() => {
       <Light />
       {/* mple mesh to view */}
       <mesh>
-        <boxGeometry args={[1, 1, 1]} />
-        <meshNormalMaterial />
+        <boxGeometry args={[50, 50, 50]} />
+        <meshNormalMaterial wireframe />
       </mesh>
     </Canvas3D>
   );
